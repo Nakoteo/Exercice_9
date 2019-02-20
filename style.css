@@ -17,4 +17,5 @@ body{
 .couleur-list{
     background-color: rgb(82, 82, 82);
     color: white;
+    border-radius: 20px;
 }
