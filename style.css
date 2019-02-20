@@ -11,3 +11,9 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-nineteen-child
 */
+body{
+    background-color: rgb(240, 240, 240);
+}
+.couleur-list{
+    background-color: rgb(206, 206, 206);
+}
