@@ -20,3 +20,11 @@ body{
     border-radius: 20px;
     padding-left: 100px;
 }
+
+#masthead{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#masthead h1{
+    font-weight: bold;
+}
