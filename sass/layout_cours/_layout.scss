@@ -1,0 +1,22 @@
+.liste{
+    display: grid;
+    grid-template-columns: auto;
+
+    @include media(mobile){
+        grid-template-columns: auto;
+    }
+    @include media(tablet){
+        grid-template-columns: auto auto auto;
+    }
+    @include media(desktop){
+        grid-template-columns: auto auto auto auto auto;
+    }
+    @include media(wide){
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+
+    h2{
+        font-size: 20px;
+        width: 200px;
+    }
+}

@@ -1,3 +1,5 @@
+/*variables-site*/
+/*mixins*/
 /* animation */
 #masthead {
   opacity: 0;
@@ -26,8 +28,36 @@
 .liste {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto auto auto;
-      grid-template-columns: auto auto auto auto auto;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .liste {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .liste {
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+  }
+}
+
+@media only screen and (min-width: 1168px) {
+  .liste {
+    -ms-grid-columns: auto auto auto auto auto;
+        grid-template-columns: auto auto auto auto auto;
+  }
+}
+
+@media only screen and (min-width: 1379px) {
+  .liste {
+    -ms-grid-columns: auto auto auto auto auto auto;
+        grid-template-columns: auto auto auto auto auto auto;
+  }
 }
 
 .liste h2 {

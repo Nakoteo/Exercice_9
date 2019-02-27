@@ -1,6 +1,10 @@
+/*variables-site*/
+@import 'sass/variables-site/variables-site';
+/*mixins*/
+@import 'sass/mixins/utilities';
 /* animation */
 @import 'sass/animation/anim-entete';
 /* header */
 @import 'sass/site/header';
 /* layout */
-@import 'sass/layout/layout';
+@import 'sass/layout_cours/layout';
