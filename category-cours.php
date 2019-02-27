@@ -20,9 +20,10 @@ get_header();
 			<header class="page-header">
 				<?php
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
+					query_posts('posts_per_page=-1');
 				?>
 			</header><!-- .page-header -->
-
+			<div class="liste">
 			<?php
 			// Start the Loop.
 			while ( have_posts() ) :
@@ -47,6 +48,7 @@ get_header();
 
 		endif;
 		?>
+		</div>
 		</main><!-- #main -->
 	</section><!-- #primary -->
 

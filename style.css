@@ -22,4 +22,16 @@
 }
 
 /* header */
+/* layout */
+.liste {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
+}
+
+.liste h2 {
+  font-size: 20px;
+  width: 200px;
+}
 /*# sourceMappingURL=style.css.map */
