@@ -1,30 +1,25 @@
-/*
- Theme Name:   Twenty Nineteen Child
- Theme URI:    http://example.com/twenty-nineteen-child/
- Description:  Twenty Nineteen Child Theme
- Author:       John Doe
- Author URI:   http://example.com
- Template:     twentynineteen
- Version:      1.0.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  twenty-nineteen-child
-*/
-body{
-    background-color: rgb(240, 240, 240);
-}
-.couleur-list{
-    background-color: rgb(82, 82, 82);
-    color: white;
-    border-radius: 20px;
-    padding-left: 100px;
+/* animation */
+#masthead {
+  opacity: 0;
 }
 
-#masthead{
-    font-family: Arial, Helvetica, sans-serif;
+@-webkit-keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-#masthead h1{
-    font-weight: bold;
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
+
+/* header */
+/*# sourceMappingURL=style.css.map */
