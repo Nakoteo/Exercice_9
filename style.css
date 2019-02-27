@@ -30,6 +30,7 @@
   display: grid;
   -ms-grid-columns: auto;
       grid-template-columns: auto;
+  padding-left: 20px;
 }
 
 @media only screen and (min-width: 600px) {

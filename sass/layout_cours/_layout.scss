@@ -1,6 +1,7 @@
 .liste{
     display: grid;
     grid-template-columns: auto;
+    padding-left: 20px;
 
     @include media(mobile){
         grid-template-columns: auto;
