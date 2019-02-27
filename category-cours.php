@@ -38,14 +38,6 @@ get_header();
 
 				// End the loop.
 			endwhile;
-
-			// Previous/next page navigation.
-			twentynineteen_the_posts_navigation();
-
-			// If no content, include the "No posts found" template.
-		else :
-			get_template_part( 'template-parts/content/content', 'titre-cours' );
-
 		endif;
 		?>
 		</div>
